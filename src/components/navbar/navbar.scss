@@ -1,9 +1,9 @@
 .navbar {
-    position: sticky;
+    // position: sticky;
      top: 0;
      z-index: 100;
-     background-color: rgb(157, 206, 251);
-      height: 70px;
+     background-color: rgb(214, 192, 67);
+      height: 55px;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -12,6 +12,12 @@
       .logo {
         height: 90%;
         width: 70px;
-        padding: 5px 25px;
+        padding: 3px 25px; 
+      }
+      .menu-icon {
+          height: 90%;
+          width: 20px;
+          position: relative;
+          right: 0;
       }
 }
